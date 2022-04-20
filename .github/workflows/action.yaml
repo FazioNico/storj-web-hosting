@@ -3,10 +3,7 @@ name: Upload Website
 on:
   push:
     branches:
-    - master
-  pull_request:   
-    branches:
-    - master
+    - main
 
 jobs:
   deploy:
